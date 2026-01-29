@@ -71,12 +71,12 @@ cd knowledge-query-backend
 # Install dependencies
 npm install
 
-# Configure Environment
-# Create a .env file with the following:
-# PORT=5000
-# MONGO_URI=mongodb://localhost:27017/knowledge_base
-# JWT_SECRET=your_secure_secret
-# AI_SERVICE_URL=http://localhost:8000
+Configure Environment
+Create a .env file with the following:
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/knowledge_base
+JWT_SECRET=your_secure_secret
+AI_SERVICE_URL=http://localhost:8000
 
 # Start the Gateway
 npm run dev
